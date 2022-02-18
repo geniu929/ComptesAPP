@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8CA5B5"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/pseudo"
+            android:layout_width="125dp"
+            android:layout_height="51dp"
+            android:layout_weight="0.99"
+            android:text="@string/defaut"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:id="@+id/dcnx"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:clickable="true"
+            android:elevation="2dp"
+            android:text="@string/se_d_connecter"
+            android:textAlignment="textEnd"
+            android:focusable="true" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/rejoindre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#a7a7a7"
+            android:text="@string/rejoindre_ce_groupe" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/factures_post_es_sur_ce_groupe" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="159dp"
+        android:layout_alignLeft="@+id/fbedittext"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/fbedittext"
+        android:layout_marginTop="22dp"
+        android:layout_weight="0.34"
+        android:clickable="true"
+        android:lines="200"
+        android:focusable="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/montant"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/montant"
+            android:inputType="numberDecimal" />
+
+        <EditText
+
+            android:id="@+id/motif"
+            android:layout_width="214dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/motif_de_la_facture"
+            android:inputType="textPersonName" />
+
+
+        <Button
+            android:id="@+id/ajouterfact"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#a7a7a7"
+            android:text="@string/publier" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/calcul"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#a7a7a7"
+            android:text="@string/calcul" />
+
+        <Button
+            android:id="@+id/quitter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#a7a7a7"
+            android:text="@string/quitter_le_groupe" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.52"
+        android:text=""
+        android:textSize="18sp" />
+
+
+</LinearLayout>

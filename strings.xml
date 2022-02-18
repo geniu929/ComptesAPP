@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ComptesApp</string>
+    <string name="pseudo">Pseudo</string>
+    <string name="si_vous_tes_d_ja_inscrit_mettez_votre_pseudo_mot_de_passe_et_appuyer_sur_connexion_sinon_remplissez_les_champs_et_appuyez_sur_inscription">Si vous étes déja inscrit, mettez votre pseudo/mot de passe et appuyer sur Connexion! Sinon Remplissez les champs et appuyez sur Inscription!</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="connexion">Connexion!</string>
+    <string name="insciption">Insciption</string>
+    <string name="les_bons_comptes_est_une_application_qui_vous_permet_de_g_rer_vos_d_penses_collectifs_et_les_r_partir_galement">Les Bons Comptes est une application qui vous permet de gérer vos dépenses collectifs et les répartir également</string>
+    <string name="se_d_connecter">( Se déconnecter )</string>
+    <string name="liste_des_groupes_que_vous_pouvez_rejoindre">Liste des groupes que vous pouvez rejoindre:</string>
+    <string name="cliquer_pour_cr_er_un_nouveau_groupe">Cliquer pour créer un nouveau groupe</string>
+    <string name="nom_de_votre_groupe">Nom de votre groupe</string>
+    <string name="ajouter">Ajouter</string>
+    <string name="test">test</string>
+    <string name="nom_du_groupe">Nom du groupe</string>
+    <string name="valider">Valider!</string>
+    <string name="defaut">defaut</string>
+    <string name="rejoindre_ce_groupe">Rejoindre ce groupe</string>
+    <string name="factures_post_es_sur_ce_groupe">Factures postées sur ce groupe:</string>
+    <string name="montant">montant</string>
+    <string name="motif_de_la_facture">Motif de la facture</string>
+    <string name="publier">Publier</string>
+    <string name="calcul">Calcul!</string>
+    <string name="quitter_le_groupe">Quitter le groupe</string>
+</resources>
